@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+}
+
+.card {
+  height: 180px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+a {
+  color: #055160;
+  text-decoration: none;
+}
+
+.links-redirect {
+width: 350px;
+}
+
+.reviews {
+width: 500px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.review {
+width: 500px;
+}
